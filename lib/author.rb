@@ -1,5 +1,7 @@
 class Author
   
-  def ini
+  def initialize(name)
+    @name = name
+  end
 
 end
