@@ -8,6 +8,9 @@ class Post
     @title
   end
   
+  def author_name
+    self.author.equal?(nil) ? self.author : self.author.name
+  end
   
   
   
